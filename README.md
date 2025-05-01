@@ -29,6 +29,6 @@ Here's a handy command you can paste to install all the prerequisites (Arch):
 ### IF YOU CARE ABOUT YOUR CURRENT CONFIGURATION IN ANY WAY, YOU SHOULD PROABABLY BACK UP YOUR CURRENT DOTFILES.
 
 Clone this repository and open it in terminal: 
-
+<sub>You'll need `git` to clone the repo, make sure you have git by running `sudo pacman -S git`, or `sudo apt install git` on debian.</sub>
 `git clone https://github.com/ProsperousTroll/Zachs-Dotfiles`
 
