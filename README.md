@@ -1,4 +1,4 @@
-# Zach-s-Hyprland-Dotfiles
+# Zach's Hyprland Dotfiles
 Simple, yellow, beautiful. No BS. Just some unix goodness, using Hyprland, Waybar, and hyprpaper. 
 
 ## PREREQUISITES
@@ -30,5 +30,5 @@ Here's a handy command you can paste to install all the prerequisites (Arch):
 
 Clone this repository and open it in terminal: 
 
-`git clone https://github.com/ProsperousTroll/Zach-s-Hyprland-Dotfiles`
+`git clone https://github.com/ProsperousTroll/Zachs-Dotfiles`
 
