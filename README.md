@@ -19,6 +19,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness, using Hyprland, Wayba
 - Nemo
 
 Here's a handy command you can paste to install all the prerequisites (on Arch Linux): 
+
 <sub>and feel free to omit nemo if you either don't plan on using a GUI file manager or have another one you prefer.</sub>
 
 `sudo pacman -S hyprland kitty hyprpaper fastfetch yazi nemo rofi btop stow ttf-mononoki-nerd`
