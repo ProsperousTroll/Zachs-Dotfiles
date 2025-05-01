@@ -1,0 +1,39 @@
+{
+   "logo": {
+	"source": "~/.config/fastfetch/beavis.txt"
+   },
+  "modules": [
+    "title",
+    "separator",
+    {
+	    "type": "custom",
+	    "key": "OS",
+	    "format": "BeavOS x86_64"
+	},
+
+    "host",
+        {
+	    "type": "custom",
+	    "key": "Kernel",
+	    "format": "Linux 6.14.2-Beavis1-1"
+	},
+
+    "uptime",
+    "packages",
+    "shell",
+    "display",
+    "de",
+    "wm",
+    "wmtheme",
+    "theme",
+    "icons",
+    "font",
+    "terminal",
+    "terminalfont",
+    "cpu",
+    "gpu",
+    "memory",
+    "break",
+    "colors"
+  ]
+}
