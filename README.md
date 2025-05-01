@@ -34,3 +34,22 @@ Clone this repository and open it in terminal:
 
 `git clone https://github.com/ProsperousTroll/Zachs-Dotfiles`
 
+`cd ~/Zachs-Dotfiles`
+
+## Option 1: Auto Install
+
+Thanks to stow, you can simply run `INSTALL.sh` (either straight in the terminal by typing `sh INSTALL.sh` or `bash INSTALL.sh`, or you can just open it with the kitty URL launcher) and the dotfiles should autoamagically be put into place!
+
+## Option 2: Manual Install 
+
+*<sub>If there are only bits and pieces you want to incorperate into your existing dotfiles, you're welcome to install whichever config files you'd like manually.</sub>* 
+
+Access the git repo via your terminal of choice
+
+`cd ~/Zachs-Dotfiles`
+
+Use the stow command to choose the dotfile you'd like to install
+
+`stow [folder-name]`
+
+*you can choose from the following: btop, fastfetch, hypr, kitty, nvim, rofi, and waybar.*
