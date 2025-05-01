@@ -68,13 +68,19 @@ If you'd like to change the wallpaper to something else, you'll need to edit the
 You're welcome to change any of the keybinds you like in `~/.config/hypr/hyprland.conf`. the ones that are there already are simply the ones that I use. 
 
 `SUPER + Q` = Terminal (kitty)
+
 `SUPER + C` = Close window
+
 `SUPER + B` = Web Browser (you will need to configure which browser to launch in `~/config/hypr/hyprland.conf` under the "my programs" section.)
+
 `SUPER + SPACE` = Menu (rofi)
+
 `SUPER + E` = File manager (yazi)
+
 `SUPER + SHIFT + E` = GUI File Manager (Nemo)
 
 `SUPER + SHIFT` + (arrow key) = Swap window in that direction.
+
 
 Everything else is just the default Hyprland config.
 
