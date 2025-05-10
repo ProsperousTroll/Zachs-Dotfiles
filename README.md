@@ -1,7 +1,7 @@
 # Zach's Hyprland Dotfiles
 Simple, yellow, beautiful. No BS. Just some unix goodness.
 
-![Screenie](/MISC/screenie.png)
+![Screenie](/MISC/Screenshot.png)
 
 
 ## PREREQUISITES
