@@ -66,6 +66,8 @@ Use the stow command to choose the dotfile you'd like to install
 
 If you'd like to change the wallpaper to something else, you'll need to edit the config file at `~/.config/hypr/hyprpaper.conf` by replacing my image with the directory to whichever image you'd like to use.
 
+There is also an included GTK theme I like called LightningBug that is included in the install script, feel free to use nwg-look to enable it. 
+
 # KEYBINDS
 
 You're welcome to change any of the keybinds you like in `~/.config/hypr/hyprland.conf`. the ones that are there already are simply the ones that I use. 
