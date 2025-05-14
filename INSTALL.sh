@@ -1,2 +1,2 @@
 #!/bin/sh
-stow btop fastfetch hypr kitty nvim rofi waybar 
+stow btop fastfetch hypr kitty nvim yazi rofi waybar 
