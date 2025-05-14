@@ -14,7 +14,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness.
 - Rofi
 - Btop
 - Stow
-- Inconsolata Nerd Font
+- RobotoMono Nerd Font
 - Dragon-drop
 
 ### Optional 
