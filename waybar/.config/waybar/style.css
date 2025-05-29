@@ -1,0 +1,18 @@
+#waybar {
+	font-family: "RobotoMono Nerd Font", monospace;
+	font-size: 13;
+	background-color: rgba(10, 9, 32, 0.5);
+	box-shadow: 0 0px 10px rgba(0, 0, 0, 0.6);
+	border-radius: 6px;
+	color: #9AAAE5;
+}	
+
+#tray {
+	color: #9AAAE5;
+}
+
+#workspaces button {
+	color: #9AAAE5;
+}
+
+
