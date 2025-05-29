@@ -1,5 +1,5 @@
 # Zach's Hyprland Dotfiles
-Simple, yellow, beautiful. No BS. Just some unix goodness.
+Simple, blue, beautiful. No BS. Just some unix goodness.
 
 ![Screenie](/MISC/Screenshot.png)
 
@@ -11,7 +11,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness.
 - Kitty
 - Fastfetch
 - Yazi
-- Rofi
+- Wofi
 - Btop
 - Stow
 - RobotoMono Nerd Font
@@ -26,7 +26,7 @@ Here's a handy command you can paste to install all the prerequisites (on Arch L
 
 <sub>and feel free to omit nemo if you either don't plan on using a GUI file manager or have another one you prefer.</sub>
 
-`sudo pacman -S hyprland kitty hyprpaper fastfetch yazi nemo rofi btop stow ttf-roboto-mono-nerd`
+`sudo pacman -S hyprland kitty hyprpaper fastfetch yazi nemo wofi btop stow ttf-roboto-mono-nerd`
 
 (I'm pretty sure you can replace 'pacman -S' with 'apt install' on debian-based distros, but you might need some additional configuration or packages for them to work out of the box. Discretion is adviced and what not.)
 
