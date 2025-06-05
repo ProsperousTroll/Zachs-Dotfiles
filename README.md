@@ -1,5 +1,5 @@
-# Zach's Hyprland Dotfiles
-Simple, yellow, beautiful. No BS. Just some unix goodness.
+# Zach's (Old & Ugly) Hyprland Dotfiles
+This branch is depreciated and no longer being updated.
 
 ![Screenie](/MISC/Screenshot.png)
 
