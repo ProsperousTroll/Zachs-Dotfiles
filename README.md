@@ -9,6 +9,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness.
 - Hyprland
 - Hyprpaper
 - Ghostty
+- Fish
 - Fastfetch
 - Yazi
 - Fuzzel
@@ -20,7 +21,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness.
 
 Here's a handy command you can paste to install all the prerequisites (on Arch Linux): 
 
-`sudo pacman -S hyprland ghostty hyprpaper fastfetch yazi fuzzel stow ttf-roboto-mono-nerd`
+`sudo pacman -S hyprland ghostty fish hyprpaper fastfetch yazi fuzzel stow ttf-roboto-mono-nerd`
 
 (I'm pretty sure you can replace 'pacman -S' with 'apt install' on debian-based distros, but you might need some additional configuration or packages for them to work out of the box. Discretion is adviced and what not.)
 
