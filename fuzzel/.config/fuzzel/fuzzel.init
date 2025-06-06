@@ -1,0 +1,22 @@
+font=Roboto Mono Nerd Font:weight=bold:size=14
+dpi-aware=no
+width=60
+layer=overlay
+prompt="  | BeavOS > "
+placeholder="Um... do you need, like, an app or something?"
+keyboard-focus=exclusive
+
+[colors]
+text=#9AAAE5FF
+background=#23255A50
+input=#9AAAE5FF
+placeholder=#4A5293FF
+prompt=#F768A3FF
+selection=#258FC4FF
+selection-text=#FAAEA2FF
+match=#F768A3FF
+selection-match=#F768A3FF
+border=#F768A3FF
+
+[border]
+radius=10
