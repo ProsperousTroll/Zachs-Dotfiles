@@ -1,6 +1,6 @@
 [opener]
 edit = [
-	{ run = 'kitty nvim "$@"', block = false }
+	{ run = 'ghostty nvim "$@"', block = false }
 ]
 
 [[manager.prepend_keymap]]
