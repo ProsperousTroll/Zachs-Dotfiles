@@ -15,6 +15,7 @@ Simple, yellow, beautiful. No BS. Just some unix goodness.
 - Stow
 - RobotoMono Nerd Font
 - Dragon-drop
+<sub>(`dragon-drop` is on the AUR, so you'll need to use a frontend like `[yay](https://github.com/Jguer/yay)` or `[paru](https://github.com/Morganamilo/paru)` to install it.)
 
 Here's a handy command you can paste to install all the prerequisites (on Arch Linux): 
 
