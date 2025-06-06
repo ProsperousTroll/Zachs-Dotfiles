@@ -1,2 +1,2 @@
 #!/bin/sh
-stow fastfetch hypr ghostty yazi fuzzel waybar 
+stow fastfetch hypr ghostty fish yazi fuzzel waybar 
