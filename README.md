@@ -17,7 +17,7 @@ Simple, blue, beautiful. No BS. Just some unix goodness.
 - RobotoMono Nerd Font
 - Dragon-drop
 
-<sub>Hyprshot and dragon-drop are packages **available on the AUR** you will need to use a front end like [yay](https://github.com/Jguer/yay) or [paru](https://github.com/Morganamilo/paru)</sub> 
+<sub>Hyprshot and dragon-drop are packages **available on the AUR**, you will need to use a front end like [yay](https://github.com/Jguer/yay) or [paru](https://github.com/Morganamilo/paru) to install them.</sub> 
 
 Here's a handy command you can paste to install the essential prerequisites (on Arch Linux): 
 
