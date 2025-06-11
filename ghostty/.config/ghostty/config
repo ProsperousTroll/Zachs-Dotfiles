@@ -1,0 +1,44 @@
+############
+### FONT ###
+############
+
+font-family  = "Roboto Mono"
+font-size = 14
+
+##############
+### COLORS ###
+##############
+
+palette = 0=#0A0920
+palette = 1=#13133A
+palette = 2=#23255A
+palette = 3=#333773
+palette = 4=#4A5293
+palette = 5=#606BAC
+palette = 6=#7896C5
+palette = 7=#9AAAE5
+
+palette = 8=#F768A3
+palette = 9=#F768A3
+palette = 10=#FAAEA2
+palette = 11=#FAAEA2
+palette = 12=#257FC4
+palette = 13=#257FC4
+palette = 14=#F768A3
+palette = 15=#F768A3
+
+background = #0A0920
+foreground = #9AAAE5
+cursor-color = #FAAEA2
+selection-background = #F768A3
+selection-foreground = #FAAEA2
+
+###############
+### OPTIONS ###
+###############
+
+# This disables the annoying prompt that shows up when you try and close an instance that's doing something
+# Be careful...
+confirm-close-surface = false
+background-opacity = 0.8
+background-blur = true
