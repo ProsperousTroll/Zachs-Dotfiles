@@ -6,24 +6,26 @@ Simple, blue, beautiful. No BS. Just some unix goodness.
 
 ## PREREQUISITES
 
+- Dragon-drop
+- Fastfetch
+- Fish
+- Fuzzel
+- Ghostty
 - Hyprland
 - Hyprpaper
 - Hyprshot
-- Ghostty
-- Fastfetch
-- Yazi
-- Fuzzel
-- Stow
 - RobotoMono Nerd Font
-- Dragon-drop
+- Starship
+- Stow
+- Yazi
 
 <sub>Hyprshot and dragon-drop are packages **available on the AUR**, you will need to use a front end like [yay](https://github.com/Jguer/yay) or [paru](https://github.com/Morganamilo/paru) to install them.</sub> 
 
 Here's a handy command you can paste to install the essential prerequisites (on Arch Linux): 
 
-`sudo pacman -S hyprland ghostty hyprpaper fastfetch yazi nemo fuzzel stow ttf-roboto-mono-nerd`
+`sudo pacman -S hyprland ghostty hyprpaper fastfetch yazi fuzzel stow ttf-roboto-mono-nerd`
 
-(I'm pretty sure you can replace 'pacman -S' with 'apt install' on debian-based distros, but you might need some additional configuration or packages for them to work out of the box. Discretion is advised and what not.)
+(If you are trying to get these dots working on another distro you're on your own... But I do recommend getting [the Nix package manager](https://nixos.org) set up on your distro for the best shot at compatibility.)
 
 # INSTALLATION INSTRUCTIONS 
 
@@ -41,6 +43,8 @@ Clone this repository and open it in terminal:
 
 Thanks to stow, you can simply run `INSTALL.sh` (either straight in the terminal by typing `sh INSTALL.sh` or `bash INSTALL.sh`, or you can just open it with the kitty URL launcher) and the dotfiles should autoamagically be put into place!
 
+<sub>You will have to run the following command in the directory the INSTALL.sh file is in order to run it: `sudo chmod +x INSTALL.sh`</sub>
+
 ## Option 2: Manual Install 
 
 *<sub>If there are only bits and pieces you want to incorporate into your existing dotfiles, you're welcome to install whichever config files you'd like manually.</sub>* 
@@ -53,7 +57,7 @@ Use the stow command to choose the dotfile you'd like to install
 
 `stow [folder-name]`
 
-*you can choose from the following: fastfetch, hypr, ghostty, fuzzel, fish, and waybar.*
+*you can choose from the following: fastfetch, hypr, ghostty, fuzzel, fish, starship, and waybar.*
 
 # MONITORS/WALLPAPER
 
@@ -76,7 +80,7 @@ You're welcome to change any of the keybinds you like in `~/.config/hypr/hyprlan
 
 `SUPER + E` = File manager (yazi)
 
-`SUPER + SHIFT + E` = GUI File Manager (Nemo)
+`SUPER + SHIFT + E` = GUI File Manager (Thunar)
 
 `SUPER + SHIFT` + (vim direction key) = Swap window in that direction.
 

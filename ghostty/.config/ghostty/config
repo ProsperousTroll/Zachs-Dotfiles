@@ -42,3 +42,5 @@ selection-foreground = #FAAEA2
 confirm-close-surface = false
 background-opacity = 0.8
 background-blur = true
+
+title = "@BeavOS~"
