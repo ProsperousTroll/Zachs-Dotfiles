@@ -1,5 +1,4 @@
 // -*- mode: jsonc -*-
-// -*- there is too much crap in here for me to care about making it look nice. Sorry. -*-
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
