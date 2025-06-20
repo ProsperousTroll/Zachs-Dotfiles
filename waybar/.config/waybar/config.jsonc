@@ -162,6 +162,7 @@
         "format-icons": ["", "", "", "", "", "", "", "", ""]
     },
     "battery": {
+        "interval": 2,
         "states": {
             // "good": 95,
             "warning": 30,
