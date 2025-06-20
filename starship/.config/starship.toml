@@ -1,5 +1,3 @@
-"$schema" = 'https://starship.rs/config-schema.json'
-
 # Inserts a blank line between shell prompts for clarity
 add_newline = true
 
@@ -9,8 +7,8 @@ $username$hostname$character
 """
 
 [directory]
-format = '[ $path]($style) '
-style = 'bold bright-cyan'
+format = '┌ [ $path]($style)'
+style = 'bold 7'
 truncation_length = 3
 truncation_symbol = '…/'
 read_only = ' 🔒'
@@ -42,16 +40,16 @@ style = 'bold bright-magenta'
 min_time = 2000
 
 [username]
-format = '[ $user]($style) '
-style_user = 'bold yellow'
+format = '│ [$user]($style) '
+style_user = '7'
 show_always = true
 
 [hostname]
 format = '[󰣇 $hostname]($style) '
-style = 'bold green'
+style = 'bold 8'
 ssh_only = false
 
 [character]
-success_symbol = '[➜](bold green) '
-error_symbol = '[✗](bold red) '
+success_symbol = '[➜](12)'
+error_symbol = '[✗](8)'
 
