@@ -2,3 +2,9 @@
 on = "<C-d>"
 run = 'shell -- dragon-drop "$@"'
 desc = "Drag selected files with dragon-drop"
+
+
+[[mgr.prepend_keymap]]
+on = [ "c", "a" ]
+run = "plugin compress"
+desc = "Archive selected files"
