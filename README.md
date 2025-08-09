@@ -30,11 +30,12 @@ Here's a handy command you can paste to install the essential prerequisites (on 
 
 (If you are trying to get these dots working on another distro you're on your own... But I do recommend getting [the Nix package manager](https://nixos.org) set up on your distro for the best shot at compatibility.)
 
-###### LAPTOP ONLY - HYPRSCROLLER
+##### LAPTOP ONLY - HYPRSCROLLER
 
 For laptop, I use the hyprland plugin *hyprscroller.* It's not required, but it makes really good use of the limited screen space of a laptop. Not to meantion it's SO much nicer to use with a trackpad.
 
 To install/enable it, you can use the awesome `hyprpm` tool. Just run this command:
+
 `hyprpm add https://github.com/cpiber/hyprscroller && hyprpm update && hyprpm enable hyprscroller && hyprpm reload -n`
 
 Then you're all set!
