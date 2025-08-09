@@ -12,6 +12,7 @@
     ],
     "modules-center": [
         "hyprland/window",
+        "niri/window",
     ],
     "modules-right": [
        // "mpd",
@@ -34,6 +35,13 @@
       
 
 "hyprland/window": {
+    "format": "{title}",
+    "format-empty": "zach@beavos:~",
+    "max-length": 30,
+    "icon": true,
+  },
+
+"niri/window": {
     "format": "{title}",
     "format-empty": "zach@beavos:~",
     "max-length": 30,

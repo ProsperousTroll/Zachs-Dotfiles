@@ -40,7 +40,7 @@ selection-foreground = #FAAEA2
 # This disables the annoying prompt that shows up when you try and close an instance that's doing something
 # Be careful...
 confirm-close-surface = false
-background-opacity = 0.8
+background-opacity = 0.85
 background-blur = true
 
 title = "@BeavOS~"
