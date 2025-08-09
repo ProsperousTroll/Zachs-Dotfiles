@@ -13,6 +13,7 @@ Simple, blue, beautiful. No BS. Just some unix goodness.
 - Ghostty
 - Hyprland
 - Hyprpaper
+- Hyprscroller (Plugin)
 - Hyprshot
 - RobotoMono Nerd Font
 - Starship
@@ -21,11 +22,22 @@ Simple, blue, beautiful. No BS. Just some unix goodness.
 
 <sub>Hyprshot and dragon-drop are packages **available on the AUR**, you will need to use a front end like [yay](https://github.com/Jguer/yay) or [paru](https://github.com/Morganamilo/paru) to install them.</sub> 
 
+
+
 Here's a handy command you can paste to install the essential prerequisites (on Arch Linux): 
 
 `sudo pacman -S hyprland ghostty hyprpaper fastfetch yazi fuzzel stow ttf-roboto-mono-nerd`
 
 (If you are trying to get these dots working on another distro you're on your own... But I do recommend getting [the Nix package manager](https://nixos.org) set up on your distro for the best shot at compatibility.)
+
+###### LAPTOP ONLY - HYPRSCROLLER
+
+For laptop, I use the hyprland plugin *hyprscroller.* It's not required, but it makes really good use of the limited screen space of a laptop. Not to meantion it's SO much nicer to use with a trackpad.
+
+To install/enable it, you can use the awesome `hyprpm` tool. Just run this command:
+`hyprpm add https://github.com/cpiber/hyprscroller && hyprpm update && hyprpm enable hyprscroller && hyprpm reload -n`
+
+Then you're all set!
 
 # INSTALLATION INSTRUCTIONS 
 
