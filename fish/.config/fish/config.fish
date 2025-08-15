@@ -18,4 +18,5 @@ if status is-interactive
 
     # Misc aliases
     alias sudude=sudo
+    alias chad=nvim
 end

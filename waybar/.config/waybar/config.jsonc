@@ -2,12 +2,13 @@
 {
     "layer": "top", // Waybar at top layer
     "position": "top", // Waybar position (top|bottom|left|right)
-    "height": 20, // Waybar height (to be removed for auto height)
+    "height": 36, // Waybar height (to be removed for auto height)
     // "width": 1527, // Waybar width
-    "spacing": 22, // Gaps between modules (4px)
+    "spacing": 16, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
+        //"mpris",
         "tray",
     ],
     "modules-center": [
@@ -37,16 +38,20 @@
 "hyprland/window": {
     "format": "{title}",
     "format-empty": "zach@beavos:~",
-    "max-length": 30,
+    "max-length": 34,
     "icon": true,
   },
 
-"niri/window": {
-    "format": "{title}",
-    "format-empty": "zach@beavos:~",
-    "max-length": 30,
-    "icon": true,
+"mpris": {
+    "format": "{status_icon} {title}{length}",
+    "status-icons": {
+      "paused": " ",
+      "playing": " ",
+      "max-length": 34,
+    },
+
   },
+
 
 "image": {
   "path": "/tmp/waybar-mediaplayer-art",
