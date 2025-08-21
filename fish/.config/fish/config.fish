@@ -4,7 +4,7 @@ function beavosquote
 end
 
 if status is-interactive
-    # init starship
+    # init starship && zoxide
     starship init fish | source
     zoxide init fish | source
     # Set the fish greeting to nothing. 
