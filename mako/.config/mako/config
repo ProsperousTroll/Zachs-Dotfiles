@@ -1,0 +1,8 @@
+font=Roboto Mono 14
+background-color=#2a261966
+text-color=#fefbe9
+border-color=#d85a67
+border-radius=10
+width=450
+default-timeout=6000
+history=1
