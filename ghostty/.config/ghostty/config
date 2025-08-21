@@ -44,5 +44,5 @@ background-opacity = 0.85
 background-blur = true
 
 title = "@BeavOS~"
-window-decoration = none
+# window-decoration = none
 command = /usr/bin/fish --login --interactive

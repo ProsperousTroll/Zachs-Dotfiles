@@ -1,3 +1,9 @@
+/* Animations */
+@keyframes fade-in{
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
 #waybar {
   min-height: 0;
 	font-family: "Roboto Mono", monospace;
@@ -8,10 +14,17 @@
 	color: rgba(247, 104, 163, 0.2);
 }
 
-window#waybar.empty #window {
-    padding: 0px;
-    margin: 0px;
-    background-color: transparent;
+tooltip {
+  background-color: rgba(35, 37, 90, 0.6);
+  color: #9AAAE5;
+  border: 2px solid;
+  border-color: rgba(247, 104, 163, 0.2);
+  animation: fade-in;
+  animation-duration: 0.2s;
+}
+tooltip label {
+  font-family: "Roboto Mono", monospace;
+  color: #9AAAE5;
 }
 
 #tray {
@@ -41,11 +54,12 @@ window#waybar.empty #window {
   border-radius: 16px;
   margin: 5px;
 }
-
-
+window#waybar.empty .modules-center {
+    background-color: transparent;
+}
 
 .modules-right {
-  color: #9AAAE5;
+  color: #9aaae5;
 }
 
 #network,

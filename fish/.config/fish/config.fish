@@ -6,7 +6,7 @@ end
 if status is-interactive
     # init starship
     starship init fish | source
-
+    zoxide init fish | source
     # Set the fish greeting to nothing. 
     set -U fish_greeting ""
 
