@@ -15,5 +15,5 @@ if status is-interactive
 
     # Misc aliases
     alias please=sudo
-    alias chad=nvim
+    alias vimtopia=nvim
 end
