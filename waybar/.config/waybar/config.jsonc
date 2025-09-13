@@ -215,7 +215,7 @@
             "car": "",
             "default": ["", "", ""]
         },
-        "on-click": "pavucontrol"
+        "on-click": "kitty -e wiremix"
     },
     "custom/media": {
         "format": "{icon} {text}",
