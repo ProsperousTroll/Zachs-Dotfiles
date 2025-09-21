@@ -365,7 +365,7 @@ binds {
     Mod+D { spawn "discord"; }
     Mod+E { spawn "ghostty" "-e" "yazi"; }
     Mod+Shift+E { spawn "thunar"; }
-    Mod+Q hotkey-overlay-title="Open a Terminal: ghostty" { spawn "ghostty"; }
+    Mod+Q hotkey-overlay-title="Open a Terminal" { spawn "foot"; }
     Mod+Space hotkey-overlay-title="Run an Application: fuzzel" { spawn "fuzzel"; }
     Super+Alt+L hotkey-overlay-title="Lock the Screen: swaylock" { spawn "swaylock"; }
 
