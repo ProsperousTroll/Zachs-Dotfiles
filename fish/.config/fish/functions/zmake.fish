@@ -1,4 +1,4 @@
-#   ZMAKE 0.1.0
+#   ZMAKE 0.1.1
 # A personal CMake project tempate / building automation tool.
 function zmake
 
@@ -22,6 +22,9 @@ function zmake
    # build as a function so it can be called again by run
    function build
       zmake_check 
+      if test $status -eq 1
+         return 1
+      end
 
       if not test -d $current_dir/build
          mkdir $current_dir/build
@@ -127,6 +130,9 @@ Git failed to initialize! Is 'git' installed?"
          case run
             # failsafes in case something fucks up
             zmake_check
+            if test $status -eq 1
+               return 1
+            end
 
             log "> Running $current_project..."
             build
@@ -145,6 +151,12 @@ Git failed to initialize! Is 'git' installed?"
             return 1
 
          case clean
+            zmake_check
+            if test $status -eq 1
+               return 1
+            end
+
+
             set build_folder "$current_dir/build"
             log " > Removing build folder..."
             if test -d "$build_folder"
