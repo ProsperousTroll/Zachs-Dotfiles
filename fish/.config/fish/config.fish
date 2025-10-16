@@ -13,6 +13,7 @@ if status is-interactive
     zoxide init fish | source
 
     # Misc aliases
-    alias sudude=sudo
-    alias chad=nvim
+    alias s=sudo
+    alias nv=nvim
+    alias y=yazi
 end
