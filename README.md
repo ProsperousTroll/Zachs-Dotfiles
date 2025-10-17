@@ -1,5 +1,7 @@
-# Zach's Hyprland Dotfiles
+# Zach's Dotfiles
 Simple, blue, beautiful. No BS. Just some unix goodness.
+
+## REFACTOR IN PROGRESS. I am no longer using Hyprland.
 
 ![Screenie](/MISC/Screenshot.png)
 
