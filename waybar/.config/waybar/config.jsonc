@@ -8,12 +8,12 @@
     // Choose the order of the modules
     "modules-left": [
         "hyprland/workspaces",
+        "ext/workspaces",
         //"mpris",
         "tray",
     ],
     "modules-center": [
-        "hyprland/window",
-        "niri/window",
+        "dwl/window",
     ],
     "modules-right": [
        // "mpd",
@@ -34,13 +34,12 @@
     ],
     // Modules configuration
       
-
-"hyprland/window": {
-    "format": "{title}",
-    "format-empty": "zach@beavos:~",
-    "max-length": 34,
-    "icon": true,
-  },
+"dwl/window": {
+   "format": "{title}",
+   "format-empty": "Zach@BeavOS: ~",
+   "max-length": 35,
+   "icon": true,
+},
 
 "mpris": {
     "format": "{status_icon} {title}{length}",
