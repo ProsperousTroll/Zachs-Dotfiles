@@ -7,10 +7,12 @@
     "spacing": 22, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "hyprland/workspaces",
+        //"hyprland/workspaces",
+        "ext/workspaces",
     ],
     "modules-center": [
-        "hyprland/window",
+        //"hyprland/window",
+        "dwl/window",
     ],
     "modules-right": [
        // "mpd",
@@ -32,13 +34,30 @@
     ],
     // Modules configuration
       
-
+/*
 "hyprland/window": {
     "format": "{title}",
     "format-empty": "zach@beavos:~",
     "max-length": 30,
     "icon": true,
-  },
+},
+*/
+
+"dwl/window": {
+   "format": "{title}",
+   "format-empty": "Zach@BeavOS:~",
+   "max-length": 50,
+   "icon": true,
+},
+
+"ext/workspaces": {
+   "format": "{icon}",
+   "on-click": "activate",
+   "ignore-hidden": "true",
+   "on-right-click": "deactivate",
+   "sort-by-id": "true",
+},
+
 
 "image": {
   "path": "/tmp/waybar-mediaplayer-art",

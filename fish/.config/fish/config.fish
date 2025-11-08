@@ -15,5 +15,6 @@ if status is-interactive
 
     # Misc aliases
     alias please=sudo
-    alias vimtopia=nvim
+    alias nv=nvim
+    alias y=yazi
 end
